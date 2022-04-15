@@ -106,7 +106,7 @@ async def _5v5(ctx, time: str = None):
     maybe_button.callback = maybe_callback
     no_button.callback = no_callback
 
-    view = View()
+    view = View(timeout=10800)
     view.add_item(yes_button)
     view.add_item(maybe_button)
     view.add_item(no_button)
