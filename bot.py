@@ -117,7 +117,7 @@ async def _5v5(ctx, time: str = None):
 async def list(ctx):
     await ctx.send('''```
 -ping                Responds with bot latency
--clear amount -c')   Clears amount of messages (mod only)
+-clear amount -c Clears amount of messages (mod only)
 -5v5 time            starts a 5v5 (league only)
 -list -l             lists all commands```''')
 
